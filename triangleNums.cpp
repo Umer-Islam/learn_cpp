@@ -9,9 +9,10 @@ int main()
     {
         for (int j = 0; j < i + 1; j++)
         {
-            cout << initial << " ";
+            cout << i + 1 << " ";
+            // cout << initial << " ";
         }
-        initial++;
+        // initial++;
         cout << endl;
     }
     return 0;
