@@ -7,5 +7,5 @@ int main()
     // print statement
     cout << "...hello world..." << endl;
 
-    return 0
+    return 0;
 }
