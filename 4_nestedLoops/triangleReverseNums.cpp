@@ -1,17 +1,21 @@
 #include <iostream>
-
 using namespace std;
+/*
+1
+21
+321
+4321 */
 
 int main()
 {
-    int n = 4;
-    for (int i = 0; i < n; i++)
+
+    int rows = 3;
+
+    for (int i = 0; i < rows; i++)
     {
-        int initial = 1;
-        for (int j = i + 1; j < 0; j++)
+        for (int j = i + 1; j >= 0; j--)
         {
-            cout << n;
-            initial++;
+            cout << j;
         }
         cout << endl;
     }
